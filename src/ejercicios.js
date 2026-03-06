@@ -163,14 +163,14 @@ function esPositivo(numero) {if(numero>0)return "Es positivo";if(numero<0)return
 }
 
 // Test 26
-function agregarSimboloExclamacion(str) {
+function agregarSimboloExclamacion(str) {return str + "!"
 	// Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
 	// Ejemplo: "hello world" pasaría a ser "hello world!"
 	// Tu código:
 }
 
 // Test 27
-function combinarNombres(nombre, apellido) {
+function combinarNombres(nombre, apellido) {return nombre + " " + apellido
 	// Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
 	// Ejemplo: "Soy", "Hola" -> "Soy Hola"
 	// Tu código:
