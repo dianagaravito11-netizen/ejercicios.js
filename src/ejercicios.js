@@ -141,20 +141,20 @@ function redondearNumero(num) {return Math.round(num);
 }
 
 // Test 23
-function redondearHaciaArriba(num) {
+function redondearHaciaArriba(num) {return Math.ceil(num);
 	// Redondea "num" hacia arriba (al próximo entero) y devuélvelo
 	// Tu código:
 }
 
 // Test 24
-function numeroRandom() {
+function numeroRandom() {return Math.random();
 	//Generar un número al azar entre 0 y 1 y devolverlo
 	//Pista: investigá qué hace el método Math.random()
 	// Tu código:
 }
 
 // Test 25
-function esPositivo(numero) {
+function esPositivo(numero) {if(numero>0)return "Es positivo";if(numero<0)return"Es negativo";return false;
 	//La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
 	//Si el número es positivo, devolver ---> "Es positivo"
 	//Si el número es negativo, devolver ---> "Es negativo"
