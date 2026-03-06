@@ -8,7 +8,7 @@
 
 // Test 1:
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "hola";
+const nuevaString = "Hola";
 
 // Test 2
 // Crea una variable numérica, puede ser cualquier número:
@@ -37,7 +37,7 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 // Test 7
-function devolverString(str) {return ("hola");
+function devolverString(str) {return ("Hola");
 	// "Return" la string provista: str
 	// Tu código:
 }
@@ -135,7 +135,7 @@ function elevar(num, exponent) {return num ** exponent
 }
 
 // Test 22
-function redondearNumero(num) {
+function redondearNumero(num) {return Math.round(num);
 	// Redondea "num" al entero más próximo y devuélvelo
 	// Tu código:
 }
