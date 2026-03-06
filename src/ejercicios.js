@@ -62,41 +62,41 @@ function divide(x, y) {return (x / y)
 
 }
 // Test 11
-function multiplica(x, y) {
+function multiplica(x, y) {return (x * y)
 	// Multiplica "x" por "y" y devuelve el valor
 	// Tu código:
 }
 
 // Test 12
-function sonIguales(x, y) {
+function sonIguales(x, y) {return (x===y)
 	// Devuelve "true" si "x" e "y" son iguales
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 13
-function tienenMismaLongitud(str1, str2) {
+function tienenMismaLongitud(str1, str2) {return str1.length === str2. length
 	// Devuelve "true" si las dos strings tienen la misma longitud
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 14
-function menosQueNoventa(num) {
+function menosQueNoventa(num) {return num < 90
 	// Devuelve "true" si el argumento de la función "num" es menor que noventa
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 15
-function mayorQueCincuenta(num) {
+function mayorQueCincuenta(num) {return num > 50
 	// Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 16
-function obtenerResto(x, y) {
+function obtenerResto(x, y) {return x%y
 	// Obten el resto de la división de "x" entre "y"
 	// Tu código:
 }
