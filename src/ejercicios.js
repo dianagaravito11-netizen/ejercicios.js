@@ -43,24 +43,24 @@ function devolverString(str) {return ("hola");
 }
 
 // Test 8
-function suma(x, y) {return x+y}
+function suma(x, y) {return (x + y)
 	// "x" e "y" son números
 	// Suma "x" e "y" juntos y devuelve el valor
 	// Tu código:
 
-
+}
 // Test 9
-function resta(x, y) {return x-y}
+function resta(x, y) {return (x - y)
 	// Resta "y" de "x" y devuelve el valor
 	// Tu código:
 
-
+}
 // Test 10
-function divide(x, y) {return (x/y)}
+function divide(x, y) {return (x / y)
 	// Divide "x" entre "y" y devuelve el valor
 	// Tu código:
 
-
+}
 // Test 11
 function multiplica(x, y) {
 	// Multiplica "x" por "y" y devuelve el valor
