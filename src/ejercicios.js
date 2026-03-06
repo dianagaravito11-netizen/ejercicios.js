@@ -102,34 +102,34 @@ function obtenerResto(x, y) {return x%y
 }
 
 // Test 17
-function esPar(num) {
+function esPar(num) {return num %2===0
 	// Devuelve "true" si "num" es par
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 18
-function esImpar(num) {
+function esImpar(num) {return num %2 ===1
 	// Devuelve "true" si "num" es impar
 	// De lo contrario, devuelve "false"
 	// Tu código:
 }
 
 // Test 19
-function elevarAlCuadrado(num) {
+function elevarAlCuadrado(num) {return num **2
 	// Devuelve el valor de "num" elevado al cuadrado
 	// ojo: No es raiz cuadrada!
 	// Tu código:
 }
 
 // Test 20
-function elevarAlCubo(num) {
+function elevarAlCubo(num) {return num **3
 	// Devuelve el valor de "num" elevado al cubo
 	// Tu código:
 }
 
 // Test 21
-function elevar(num, exponent) {
+function elevar(num, exponent) {return num ** exponent
 	// Devuelve el valor de "num" elevado al exponente dado en "exponent"
 	// Tu código:
 }
